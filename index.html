@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Colección Micológica · Propuesta de diseño</title>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Open+Sans:wght@400;600;700&family=IBM+Plex+Mono:wght@500;600&display=swap" rel="stylesheet">
+<style>
+*{box-sizing:border-box}
+body{margin:0;background:#F5F3EC;font-family:'Open Sans',system-ui,sans-serif;color:#1C2230}
+a{color:inherit;text-decoration:none}
+.cab{background:#143F2C url(assets/topo-claro.svg) center/cover no-repeat;color:#fff;padding:28px 24px 56px}
+.cab__in,.sec{max-width:1200px;margin:0 auto}
+.logos{display:flex;align-items:center;gap:18px}
+.logos img:nth-child(1){height:26px}.logos img:nth-child(2){height:38px}.logos img:nth-child(3){height:36px}
+.cab small{display:block;margin-top:56px;font-family:'IBM Plex Mono',monospace;font-size:12px;letter-spacing:.16em;color:#FBB92A;text-transform:uppercase}
+.cab h1{margin:10px 0 0;font-family:'Instrument Serif',serif;font-weight:400;font-size:clamp(48px,8vw,88px);line-height:.95}
+.cab h1 i{color:#FBB92A}
+.cab p{margin:16px 0 0;color:#CFE5D7;font-size:15px}
+.sec{padding:48px 24px 8px}
+.sec h2{margin:0 0 20px;font-family:'Instrument Serif',serif;font-weight:400;font-size:36px;color:#143F2C}
+.grid{display:grid;gap:20px}
+.grid--movil{grid-template-columns:repeat(auto-fill,minmax(200px,1fr))}
+.grid--pc{grid-template-columns:repeat(auto-fill,minmax(270px,1fr))}
+.card{display:block;background:#fff;border-radius:18px;overflow:hidden;box-shadow:0 1px 0 #E2DCC8;transition:transform .15s,box-shadow .15s}
+.card:hover{transform:translateY(-3px);box-shadow:0 10px 24px rgba(20,63,44,.12)}
+.card__img{background:#DCE3D6;overflow:hidden}
+.grid--movil .card__img{height:360px}
+.grid--pc .card__img{height:190px}
+.card__img img{width:100%;display:block}
+.card span{display:block;padding:12px 16px 14px;font-weight:600;font-size:14px;color:#143F2C}
+.card span em{display:block;font-style:normal;font-weight:400;font-size:12px;color:#5A6273}
+.pie{max-width:1200px;margin:48px auto 0;padding:24px;border-top:1px solid #E2DCC8;font-size:12px;color:#5A6273;display:flex;flex-wrap:wrap;justify-content:space-between;gap:8px}
+</style>
+</head>
+<body>
+<header class="cab">
+  <div class="cab__in">
+    <div class="logos"><img src="assets/uned-blanco.png" alt="UNED"><img src="assets/ecen-blanco.png" alt="Escuela de Ciencias Exactas y Naturales"><img src="assets/citted-blanco.png" alt="CITTED"></div>
+    <small>Propuesta de diseño</small>
+    <h1>Colección<br><i>Micológica</i></h1>
+    <p>Sistema de registro de macrohongos · Región Huetar Norte</p>
+  </div>
+</header>
+
+<section class="sec">
+  <h2>Lo que se abre con el QR</h2>
+  <div class="grid grid--movil">
+    <a class="card" href="ficha-qr.html"><div class="card__img"><img src="capturas/01-ficha-qr.png" alt=""></div><span>Ficha del espécimen<em>Celular</em></span></a>
+    <a class="card" href="ficha-no-disponible.html"><div class="card__img"><img src="capturas/02-ficha-no-disponible.png" alt=""></div><span>Ficha no disponible<em>Celular</em></span></a>
+    <a class="card" href="seleccion.html"><div class="card__img"><img src="capturas/03-seleccion.png" alt=""></div><span>Selección para estudiantes<em>Celular</em></span></a>
+  </div>
+</section>
+
+<section class="sec">
+  <h2>Sistema interno</h2>
+  <div class="grid grid--pc">
+    <a class="card" href="login.html"><div class="card__img"><img src="capturas/05-login.png" alt=""></div><span>Inicio de sesión</span></a>
+    <a class="card" href="especimenes.html"><div class="card__img"><img src="capturas/06-especimenes.png" alt=""></div><span>Especímenes</span></a>
+    <a class="card" href="detalle.html"><div class="card__img"><img src="capturas/07-detalle.png" alt=""></div><span>Detalle del espécimen</span></a>
+    <a class="card" href="registro.html"><div class="card__img"><img src="capturas/08-registro.png" alt=""></div><span>Registrar espécimen</span></a>
+    <a class="card" href="etiqueta.html"><div class="card__img" style="height:auto"><img src="capturas/04-etiqueta.png" alt=""></div><span>Etiqueta de caja con QR<em>Para imprimir</em></span></a>
+  </div>
+</section>
+
+<footer class="pie"><span>Pasantía UNED · CITTED · Cátedra de Ciencias Biológicas</span><span>Paulina Rojas Carrillo · 2026</span></footer>
+</body>
+</html>
