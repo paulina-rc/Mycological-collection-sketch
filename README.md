@@ -1,11 +1,10 @@
-# Colección Micológica · Propuesta de diseño
+# Mycological collection - design proposal
 
-Prototipo visual (solo HTML y CSS, sin backend) del sistema web de registro de macrohongos
-para la pasantía con la UNED (CITTED y Cátedra de Ciencias Biológicas).
+A visual prototype (only HTML y CSS, without backend) of the mycological collection system for the UNED (CITTED)
 
-- `index.html`: portada con todas las pantallas.
-- Pantallas del QR (celular): `ficha-qr.html`, `ficha-no-disponible.html`, `seleccion.html`.
-- Sistema interno: `login.html`, `especimenes.html`, `detalle.html`, `registro.html`, `etiqueta.html`.
-- `capturas/`: imagen PNG de cada pantalla.
+- `index.html`: page with all the pages 
+- Screens of the QR : `ficha-qr.html`, `ficha-no-disponible.html`, `seleccion.html`.
+- Internal system: `login.html`, `especimenes.html`, `detalle.html`, `registro.html`, `etiqueta.html`.
+- `capturas/`: image of each page
 
-Todos los datos científicos, fincas, fechas y coordenadas son de ejemplo.
+Note: all scientific data, properties, dates, and coordinates are only examples for the desing proposal 
