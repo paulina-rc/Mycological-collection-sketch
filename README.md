@@ -7,6 +7,6 @@ A visual prototype (only HTML y CSS, without backend) of the mycological collect
 - Internal system: `login.html`, `especimenes.html`, `detalle.html`, `registro.html`, `etiqueta.html`.
 - `capturas/`: image of each page
 
-> [!NOTE]
+> [!IMPORTANT]
 >  all scientific data, properties, dates, and coordinates are only examples for the desing proposal 
 
